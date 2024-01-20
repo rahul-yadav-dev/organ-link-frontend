@@ -63,7 +63,7 @@ const Signup = () => {
             </span>
           </p>
         </div>
-        <div className="hidden lg:block">
+        {/* <div className="hidden lg:block">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -261,7 +261,7 @@ const Signup = () => {
               fill="#2f2e41"
             />
           </svg>
-        </div>
+        </div> */}
       </div>
     </div>
     // <div>

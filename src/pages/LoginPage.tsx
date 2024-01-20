@@ -10,7 +10,7 @@ export default function Login() {
       <AuthNav />
       <Toaster className="bg-[#191919] text-[#D4D4D4]" />
       <div className="flex items-center justify-evenly w-[55%]  ">
-        <div className="hidden lg:block">
+        {/* <div className="hidden lg:block">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -166,7 +166,7 @@ export default function Login() {
               fill="#3f3d56"
             />
           </svg>
-        </div>
+        </div> */}
 
         <div className=" h-[100%] flex justify-center items-center gap-6 ">
           <div>
