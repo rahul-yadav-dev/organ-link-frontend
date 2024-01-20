@@ -11,13 +11,14 @@ import OpenRoute from "./routes/OpenRoute";
 import PrivateRoute from "./routes/ProtectedRoute";
 import Chat from "./pages/Chat";
 import Enquiries from "./pages/Enquires";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
     <div className=" overflow-hidden">
       <Routes>
         <Route path="/announcement" element={<Announcement />} />
-
+        <Route path="/" element={<LandingPage />}></Route>
         <Route
           path="/admin"
           element={
