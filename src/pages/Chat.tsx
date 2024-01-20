@@ -24,7 +24,7 @@ export interface Message {
 const Chat = () => {
   const [inputMessage, setInputMessage] = useState("");
   const [attachment, setAttachment] = useState<string>();
-  const fileInputRef = useRef(null);
+  const fileInputRef = useRef<any>(null);
 
   const [organDetails, setOrganDetails] = useState<OrganTypes>();
   const { token } = useSelector((state: RootState) => state.auth);
